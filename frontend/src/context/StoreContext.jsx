@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
 
-  const url = "https://bhojana-backend.onrender.com/";
+  const url = "https://bhojana-backend.onrender.com";
 
   const [token, setToken] = useState("");
 
